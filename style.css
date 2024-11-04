@@ -8,7 +8,22 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+/* Common Styles */
+.align__center__with__Flex {
+  display: flex;
+
+  align-items: center;
+}
+.text__center {
+  text-align: center;
+}
+.anchor__color {
+  color: rgb(44, 44, 227);
+}
+
 .header__container {
   background-color: #1e272e;
 }
@@ -26,11 +41,7 @@ body {
   flex: 1;
   background-color: transparent;
 }
-.align__center__with__Flex {
-  display: flex;
 
-  align-items: center;
-}
 .nav__left__container {
   gap: 12px;
 }
@@ -78,4 +89,33 @@ body {
   object-fit: cover;
   border-radius: 50%;
   object-position: center;
+}
+
+/* Main Container BG  */
+.main__container {
+  background-image: url("./images/ytp_lp2_background_web_4098x2304.jpg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.main__container__primary__Heading {
+  font-size: 2rem;
+}
+
+.get__yt_prmium__button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: medium;
+  border: none;
+  background-color: #065fd4;
+  color: white;
+}
+
+.subscription__Heading {
+  font-size: 1.5rem;
 }
