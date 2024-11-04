@@ -1,10 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height:  100vh;
-    width: 100vw;
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.header__container {
+  background-color: #1e272e;
+}
+.logo {
+  width: 110px;
+  object-fit: cover;
+  object-position: center;
+}
+.nav__container {
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.nav__container input {
+  height: auto;
+  flex: 1;
+  background-color: transparent;
+}
+.align__center__with__Flex {
+  display: flex;
+
+  align-items: center;
+}
+.nav__left__container {
+  gap: 12px;
+}
+
+.nav__center__container {
+  border: 1px solid rgba(98, 95, 95, 0.663);
+  border-radius: 20px;
+  gap: 10px;
+  width: 35%;
+}
+.nav__Right__container {
+  gap: 15px;
+}
+
+.input__container {
+  height: auto;
+  gap: 10px;
+  flex: 1;
+  border-radius: 20px;
+}
+.input__container input {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: rgba(98, 95, 95, 0.663);
+}
+.input__container input::placeholder {
+  color: rgba(98, 95, 95, 0.663);
+}
+.input__container .searchIcon {
+  border-right: 1px solid rgba(98, 95, 95, 0.663);
+  padding: 8px 15px;
+  background-color: rgba(98, 95, 95, 0.663);
+  border-radius: 20px 0px 0px 20px;
+}
+.micIcon {
+  padding: 8px 15px;
+  border-left: 1px solid rgba(98, 95, 95, 0.663);
+  background-color: rgba(98, 95, 95, 0.663);
+  border-radius: 0px 20px 20px 0px;
+}
+.profile__icon {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
 }

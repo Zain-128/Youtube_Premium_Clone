@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <nav>
-     <div>
+    <header class="header__container">
+      <nav class="align__center__with__Flex nav__container">
+     <div class=" align__center__with__Flex nav__left__container">
       <img src="./images/bars.svg" alt="Menu Icon"/>
-      <img src="./images/yt logo.svg"  alt="Logo Image"/>
+      <img src="./images/yt logo.svg"  alt="Logo Image" class="logo"/>
      </div>
-     <div>
-      <img src="./images/search.svg"  alt="Search Icon"/>
-      <input/>
-      <img src="./images/mic.svg"  alt="Mic Icon"/>
+     <div class="align__center__with__Flex nav__center__container ">
+      <div class="input__container align__center__with__Flex">
+        <img src="./images/search.svg"  alt="Search Icon" class="searchIcon" />
+      <input type="text" placeholder="Search"/>
+      </div>
+      <img src="./images/mic.svg"  alt="Mic Icon" class="micIcon"/>
      </div>
-     <div>
+     <div class=" align__center__with__Flex nav__Right__container">
       <img src="./images/vidUpload.svg"  alt="Video Uplaod Icon"/>
       <img src="./images/bellicon.svg"  alt="Bell Icon"/>
       <img src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg"
       title="Profile"
-      alt="Person's Profile"/>
+      alt="Person's Profile"
+      class="profile__icon"
+      />
      </div>
       </nav>
     </header>
