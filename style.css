@@ -108,6 +108,7 @@ body {
 
 .get__yt_prmium__button {
   padding: 10px 15px;
+  margin-top: 30px;
   cursor: pointer;
   border-radius: 100px;
   font-size: medium;
@@ -118,4 +119,33 @@ body {
 
 .subscription__Heading {
   font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.second__box__container {
+  background-color: #1e272e;
+  color: white;
+}
+
+.second__box__container .innerBox {
+  max-width: 990px;
+  margin: 0px auto;
+  gap: 20px;
+  padding: 30px 0px;
+}
+
+.box {
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.box img {
+  height: 72px;
+  width: 72px;
+  object-fit: cover;
+}
+
+.box h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
